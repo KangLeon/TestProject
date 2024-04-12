@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2468312BC9795D0073D7EE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2468302BC9795D0073D7EE /* ModelData.swift */; };
 		0A4B68DD2BC6E1B70015CAD0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B68DC2BC6E1B70015CAD0 /* CircleImage.swift */; };
 		0A4B68DF2BC6E6910015CAD0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B68DE2BC6E6910015CAD0 /* MapView.swift */; };
 		0A84044B2B9F0D9B00BDD863 /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84044A2B9F0D9B00BDD863 /* TestProjectApp.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A2468302BC9795D0073D7EE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		0A4B68DC2BC6E1B70015CAD0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0A4B68DE2BC6E6910015CAD0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0A8404472B9F0D9B00BDD863 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				0A84044C2B9F0D9B00BDD863 /* ContentView.swift */,
 				0A9657712BC83D0800C33897 /* Landmark.swift */,
 				0A4B68DC2BC6E1B70015CAD0 /* CircleImage.swift */,
+				0A2468302BC9795D0073D7EE /* ModelData.swift */,
 				0A4B68DE2BC6E6910015CAD0 /* MapView.swift */,
 				0A84044E2B9F0D9C00BDD863 /* Assets.xcassets */,
 				0A8404502B9F0D9C00BDD863 /* Preview Content */,
@@ -155,6 +158,7 @@
 				0A84044B2B9F0D9B00BDD863 /* TestProjectApp.swift in Sources */,
 				0A4B68DD2BC6E1B70015CAD0 /* CircleImage.swift in Sources */,
 				0A9657722BC83D0800C33897 /* Landmark.swift in Sources */,
+				0A2468312BC9795D0073D7EE /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
