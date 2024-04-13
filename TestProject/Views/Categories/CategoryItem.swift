@@ -7,12 +7,26 @@
 
 import SwiftUI
 
+
 struct CategoryItem: View {
+    var landmark: Landmark
+
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            landmark.image
+                .renderingMode(.original)
+                .resizable()
+                .frame(width: 155, height: 155)
+                .cornerRadius(5)
+            Text(landmark.name)
+                .foregroundStyle(.primary)
+                .font(.caption)
+        }
     }
 }
 
+
 #Preview {
-    CategoryItem()
+    CategoryItem(landmark: ModelData().landmarks[0])
 }
